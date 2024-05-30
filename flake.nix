@@ -42,6 +42,8 @@
             pkgs.openssl
             pkgs.pkg-config
             pkgs.rust-analyzer
+	    pkgs.rustfmt
+	    pkgs.rustup
             rust
           ];
         };
